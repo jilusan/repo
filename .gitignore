@@ -1,0 +1,118 @@
+#
+#OOTB patterns
+#
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+#*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+#
+# Travel specific patterns
+#
+# VS 2012 file patterns
+*.pubxml
+*.publishproj
+aspnet_client/*
+# User content - exclude for now
+*.pdf
+docs/*
+images/*
+clf2/*
+mobilewebapp/*
+cpc/*
+/web.config
+/web.rewrite-rules.config
+# Data Engine content - copy from live or rerun engine to generate this
+*.json
+# if we create a /feeds/.gitignore then we don't need to repeat exclusions for each path
+feeds/rss/eng/*.xml
+feeds/rss/eng/*.rss
+feeds/rss/fra/*.xml
+feeds/rss/fra/*.rss
+#Include /bin; it is excluded by Git config
+!/bin
+#
+# Exclude external source code
+#
+mobilewebapp/
+#
+# Exclude wet-boew dist folder for now
+#
+wet-boew/*
+travel-voyage-mobile/
+
+# Tama preview, lives on ace
+/vt/dynamic/eng/preview-eng.aspx
+/vt/dynamic/eng/preview-eng.aspx.cs
+/vt/dynamic/fra/preview-fra.aspx
+/vt/dynamic/fra/preview-fra.aspx.cs
+
+/vt/dynamic/eng/subscribecountryselector.aspx
+/vt/dynamic/eng/subscribecountryselector.aspx.cs
+/vt/dynamic/eng/thankyou_country_selector.aspx
+/vt/dynamic/eng/thankyou_country_selector.aspx.cs
+feeds/mailout/news-nouvelles1a.aspx.cs
+feeds/mailout/news-nouvelles1a.aspx
+feeds/mailout/memberSubscription.txt
+
+gcweb-cdn/
+gcweb-cdn-host/
+gcweb-cdn-dev/Web.config
+gcweb-cdn-dev/
+gcweb-cdn-hook/Web.config
+gcweb-cdn-hook-dev/Web.config
+gcweb-cdn-hook-dev2/packages.config
+gcweb-cdn-hook-dev2/PrecompiledApp.config
+gcweb-cdn-hook-dev2/Web.config
+
+feeds/json/web/countries/travel-wizard/missionData/html/eng/
+feeds/json/web/countries/travel-wizard/missionData/html/fra/
+
+201208/*
+App_Code/*
+bin/*
+editable-site-configs/*
+feeds/*
+lib/*
+wet-boew/*
+vt/containers/*
+vt/content/*
+vt/controls/*
+vt/custom/*
+vt/images/*
+vt/menus/*
+vt/templates/*
+vt/widgets/*
+
+README.md
+entrustcert.crt
+google564dc639d2a1082c.html
+google5ebff2bcab983f0e.html
+plandusite.txt
+sitemap.txt
+travel.xml
+voyage.xml
+web.drupal.config

@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html><head><title>Embassy info card</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript">
+
+    var type = window.location.href.indexOf('?');
+
+    var searchString = document.location.search;
+
+    // strip the leading '?'
+    searchString = searchString.substring(1);
+
+    var nvPairs = searchString.split("&");
+
+    for (i = 0; i < nvPairs.length; i++) {
+        var nvPair = nvPairs[i].split("=");
+        var name = nvPair[0];
+        var value = nvPair[1];
+
+        switch (i) {
+            case 0:
+                var typeOfEmb = nvPair[1];
+                typeOfEmb = typeOfEmb.replace(/%20/g, ' ');
+                break;
+            case 1:
+                var address = nvPair[1];
+                address = address.replace(/%20/g, ' ');
+                break;
+            case 2:
+                var telephone = nvPair[1];
+                telephone = telephone.replace(/%20/g, ' ');
+                break;
+            case 3:
+                var fax = nvPair[1];
+                fax = fax.replace(/%20/g, ' ');
+                break;
+            case 4:
+                var email = nvPair[1];
+                email = email.replace(/%20/g, ' ');
+                break;
+        }
+    }
+
+</script>
+
+<style type="text/css">
+    .cardInfo {
+        left: 0px; 
+        width: 3.75in! important; 
+        top: 0px; 
+        height: 2.5in! important
+    }
+
+    .cardInfoDotted {
+        border-right: dashed; 
+        padding-right: 0px; 
+        border-top: dashed; 
+        padding-left: 0px; 
+        left: 0.25in! important; 
+        padding-bottom: 0px; 
+        border-left: dashed; 
+        width: 3.5in; 
+        padding-top: 0px; 
+        border-bottom: dashed; 
+        position: absolute; 
+        top: 0.25in! important; 
+        height: 2in; 
+        text-align: left
+    }
+
+    .imageClass {
+        border-right: solid; 
+        border-top: solid; 
+        left: 26px; 
+        width: 332px; 
+        height:188px; 
+        border-left: solid; 
+        border-bottom: solid; 
+        /*position: relative; */
+        position: absolute;
+        top: 26px;
+    }
+
+    .cardText {
+        margin-left: 10px; 
+        margin-top: 13px; 
+        width:300px; 
+        height:180px; 
+        max-height:180px;
+        overflow:hidden;
+    }
+
+</style>
+</head>
+<body>
+<div class="cardInfo">
+ <img class="imageClass" alt="" src="/vt/images/2012/f-eng-ecard.jpg" />
+<div class="cardInfoDotted">
+<div class="cardText">
+<br /><br /><strong><script type="text/javascript">document.write(decodeURI(typeOfEmb));</script></strong>
+<br /><script type="text/javascript">document.write(decodeURI(address));</script>
+<br />Tel: <script type="text/javascript">document.write(telephone);</script><br />
+Fax: <script type="text/javascript">document.write(fax);</script><br />
+<script type="text/javascript">document.write(email);</script> 
+</div></div></div>
+
+</body>
+</html>
+

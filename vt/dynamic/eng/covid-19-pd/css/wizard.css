@@ -1,0 +1,36 @@
+﻿.wiz-choice {
+      font-size: .85em;
+      line-height: 1.6em;
+      border-left: 7px solid #ccc;
+      margin-left: 1em;
+      margin-right: 1em;
+      padding-left: 1.3em;
+   }
+
+.white-well {
+   background-color: white !important;
+}
+
+.radio label, main form :not(.btn-call-to-action).btn {
+            line-height: 23px !important;
+}
+
+.gc-pg-hlpfl-btn {
+	font-size: 16px!important;
+}
+
+.gc-pg-hlpfl-btn .btn {
+	font-size: 20px!important;
+}
+
+.gc-pg-hlpfl-no {
+	font-size: 16px!important;
+}
+
+.gc-pg-hlpfl-no .btn {
+	font-size: 20px!important;
+}
+
+.gc-pg-hlpfl-no  .radio  label{
+	font-size: 16px!important;
+}
