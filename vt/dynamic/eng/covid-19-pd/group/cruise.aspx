@@ -2,7 +2,7 @@
 	<li><a href="http://canada.ca/en/index.html">Canada.ca</a></li>  
 	<li><a href="/">Travel</a></li>
 	<li><a href="/travel-covid/travel-restrictions">Travel, testing and borders</a></li>    </ol>
-</div></div></nav></header><!--#include virtual="/vt/templates/components/above-fold-eng.aspx"--><main role="main" property="mainContentOfPage" class="container"><h1 property="name" id="wb-cont">COVID-19: Cruise ship travel</h1>
+</div></div></nav></header><!--#include virtual="/vt/templates/components/above-fold-eng.aspx"--><main role="main" property="mainContentOfPage" class="container"><h1 property="name" id="wb-cont">COVID-19: Cruise ship travel</h1>
 
 <p>COVID-19 continues to circulate in Canada and internationally. The virus can spread easily between people in close quarters, such as on cruise ships. The chance of being infected with COVID-19 on cruise ships is very high, even if you’re fully vaccinated.</p>
 
@@ -59,4 +59,4 @@
 
 
 
-<!--#include virtual="/vt/dynamic/eng/covid-19-pd/feedback-widget/feedback-widget-page-share-date-modified-html.aspx"--></main><!--#include virtual="/vt/dynamic/_shared/eng/4-dynamic.aspx"--><!--#include virtual="/vt/dynamic/eng/covid-19-pd/feedback-widget/feedback-widget-script-jquery.aspx"--></body></html>
+<!--#include virtual="/vt/dynamic/eng/covid-19-pd/feedback-widget/feedback-widget-page-share-date-modified-html.aspx"--></main><!--#include virtual="/vt/dynamic/_shared/eng/4-dynamic.aspx"--><!--#include virtual="/vt/dynamic/eng/covid-19-pd/feedback-widget/feedback-widget-script-jquery.aspx"--></body></html>
