@@ -3,7 +3,7 @@
 	<li><a href="/">Voyage</a></li>
 	<li><a href="/voyage-covid">Voyage, dépistage et frontières</a>
 	<li><a href="/voyage-covid/voyage-restrictions/exemptions">Listes de vérification des exigences et des exemptions</a></li>    </ol>
-</div></div></nav></header><!--#include virtual="/vt/templates/components/above-fold-fra.aspx"--><main role="main" property="mainContentOfPage" class="container"><h1 property="name" id="wb-cont">Sur cette page1</h1><h2>Sur cette page</h2>
+</div></div></nav></header><!--#include virtual="/vt/templates/components/above-fold-fra.aspx"--><main role="main" property="mainContentOfPage" class="container"><h1 property="name" id="wb-cont">Dépistage de la COVID-19 pour les voyageurs</h1><h2>Sur cette page</h2>
 
 <ul>
 	<li><a href="#subir-test-depistage">Subir un test de dépistage pour entrer au Canada</a></li>
