@@ -15,7 +15,7 @@
 </ul>
 <!-- h2/1 -->
 
-<h2 id="determine-fully">Check if you qualify as a fully vaccinated traveller.</h2>
+<h2 id="determine-fully">Check if you qualify as a fully vaccinated traveller</h2>
 
 <h3>To qualify as a fully vaccinated traveller to Canada, you must:</h3>
 
