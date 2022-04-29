@@ -39,11 +39,11 @@
 
 <p>Si vous n’êtes pas admissible en tant que voyageur entièrement vacciné, <a href="https://voyage.gc.ca/voyage-covid/voyage-restrictions/debut-assistant">vérifiez si vous pouvez entrer au Canada</a>.</p>
 
-<p>Vaccins acceptés</p>
+<details><summary><span id="accepted">Vaccins acceptés</span></summary>
 
 <p>Vaccins acceptés par le gouvernement du Canada pour les voyages à destination et à l’intérieur du Canada :</p>
 
-<ul>
+<ul class="fa-ul">
 	<li>AstraZeneca/COVISHIELD (ChAdOx1-S, Vaxzevria, AZD1222)</li>
 	<li>Bharat Biotech (Covaxin, BBV152 A, B, C)</li>
 	<li>Covifenz de Medicago
@@ -67,7 +67,10 @@
 	<li>au moins une dose du vaccin Janssen/Johnson &amp; Johnson</li>
 </ul>
 
-<p>Si votre preuve de vaccination n’est ni en anglais, ni en français</p>
+<p>&nbsp;</p>
+</details>
+
+<details><summary><span id="preuve-vaccination-pas-en-fr">Si votre preuve de vaccination n’est ni en anglais, ni en français</span></summary>
 
 <p>Si votre preuve de vaccination n’est ni en anglais, ni en français, vous avez besoin d’une traduction certifiée vers l’anglais ou le français. Seules les traductions effectuées par un traducteur certifié seront acceptées.</p>
 
@@ -78,20 +81,26 @@
 <p>Gardez la preuve de vaccination originale et la traduction certifiée avec vous pendant votre voyage.</p>
 
 <p>Si votre preuve de vaccination ne répond pas à toutes les <a href="#preuve-vaccinal">exigences</a>, elle sera jugée invalide. Vous ne serez pas admissible en tant que voyageur entièrement vacciné.</p>
+</details>
 
-<p>Personnes qui ne répondent pas aux exigences relatives aux voyageurs entièrement vaccinésVaccination partielle</p>
+<details><summary><span id="pas-entierement-vaccine">Personnes qui ne répondent pas aux exigences relatives aux voyageurs entièrement vaccinés</span></summary>
+
+<details><summary>Vaccination partielle</summary>
 
 <p>Vous devez avoir reçu au moins deux doses d’un vaccin contre la COVID 19 accepté, ou un mélange de deux vaccins acceptés, ou au moins une dose du vaccin Janssen (Johnson &amp; Johnson) pour être considéré comme un voyageur entièrement vaccine et pour pouvoir entrer au Canada</p>
+</details>
 
-<p>Personne rétablie de la COVID-19 ayant eu une seule dose</p>
+<details><summary>Personne rétablie de la COVID-19 ayant eu une seule dose</summary>
 
 <p>Si vous êtes rétabli de la COVID-19, vous avez tout de même besoin de 2 doses d'un vaccin accepté contre la COVID-19 ou un mélange de deux vaccins acceptés.</p>
 
 <p>Si vous n'avez reçu qu'une seule dose d'un vaccin accepté, vous ne pouvez pas être admissible en tant que voyageur entièrement vacciné, sauf si vous avez reçu une seule dose du vaccin Janssen (Johnson &amp; Johnson).</p>
+</details>
 
 <p>Si vous n’êtes pas admissible en tant que voyageur entièrement vacciné, vous pourriez tout de même être en mesure d’entrer au Canada.</p>
 
 <p><a href="/voyage-covid/voyage-restrictions/debut-assistant">Vérifiez si vous pouvez entrer au Canada</a></p>
+</details>
 <!-- h2/2 -->
 
 <h2 id="liste-verification">Liste de vérification de ce que vous devez avoir en main à la frontière</h2>
@@ -100,15 +109,17 @@
 
 <p>Que vous arriviez par voie terrestre ou aérienne, ayez sur vous les documents suivants pour qu'ils soient évalués par un représentant du gouvernement à la frontière (les postes frontaliers terrestres n’offrent pas l’accès WiFi aux voyageurs) :</p>
 
-<ul><!-- 2 -->
-	<li>&nbsp;<a href="#creer-compte">Votre reçu ArriveCAN avec les lettres A, I, ou V à côté du nom du voyageur vacciné </a></li>
+<div class="provisional gc-checklist">
+<ul class="lst-none lst-spcd-2"><!-- 2 -->
+	<li class="checkbox"><input data-gc-analytics-customclick="checklist-vaccinated:checkmark:ArriveCAN receipt" id="receipt" name="receipt" type="checkbox" value="1" /> <label for="receipt">&nbsp;<a data-gc-analytics-customclick="checklist-vaccinated:link:ArriveCAN receipt" href="#creer-compte">Votre reçu ArriveCAN avec les lettres A, I, ou V à côté du nom du voyageur vacciné </a></label></li>
 	<!-- 3 -->
-	<li>&nbsp;<a href="/voyage-covid/voyage-restrictions/voyageurs-vaccines-covid-entrent-canada#preuve ">Votre preuve de vaccination qui a été téléversée dans ArriveCAN (copie originale ou papier) </a></li>
+	<li class="checkbox"><input data-gc-analytics-customclick="checklist-vaccinated:checkmark:preuve-vaccination" id="preuve-vaccination" name="preuve-vaccination" type="checkbox" value="1" /> <label for="preuve-vaccination">&nbsp;<a data-gc-analytics-customclick="checklist-vaccinated:link:preuve-vaccination" href="/voyage-covid/voyage-restrictions/voyageurs-vaccines-covid-entrent-canada#preuve ">Votre preuve de vaccination qui a été téléversée dans ArriveCAN (copie originale ou papier) </a></label></li>
 	<!-- 4 -->
-	<li>&nbsp;<a href="#personne-retablie">Si vous êtes déjà rétabli, la preuve d’un résultat positif à un test moléculaire effectué au moment de votre infection</a></li>
+	<li class="checkbox"><input data-gc-analytics-customclick="checklist-vaccinated:checkmark:retablie" id="retablie" name="retablie" type="checkbox" value="1" /> <label for="retablie">&nbsp;<a data-gc-analytics-customclick="checklist-vaccinated:link:retablie" href="#personne-retablie">Si vous êtes déjà rétabli, la preuve d’un résultat positif à un test moléculaire effectué au moment de votre infection</a></label></li>
 	<!-- 6 -->
-	<li>&nbsp;<a>Vos documents de voyage consignés dans ArriveCAN (p.ex. passeport) </a></li>
+	<li class="checkbox"><input data-gc-analytics-customclick="checklist-vaccinated:checkmark:other" id="other" name="other" type="checkbox" value="1" /> <label for="other">&nbsp;<a data-gc-analytics-customclick="checklist-vaccinated:link:preuve">Vos documents de voyage consignés dans ArriveCAN (p.ex. passeport) </a></label></li>
 </ul>
+</div>
 
 <h2>Tests de dépistage avant l’entrée (types acceptés, quand le passer)</h2>
 
@@ -136,7 +147,9 @@
 
 <p><strong>Vous n’avez pas de téléphone intelligent ou vous faites un bref voyage?</strong> Jusqu’à 72 heures avant votre arrivée au Canada, ou avant votre bref voyage à l’extérieur du Canada, <a href="https://arrivecan.cbsa-asfc.cloud-nuage.canada.ca/bienvenue">connectez-vous à ArriveCAN à partir d’un ordinateur</a> pour obtenir votre reçu d’ArriveCAN. Imprimez votre reçu et ayez-le en main lors de votre voyage. Une personne peut également <a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan/communiquez-avec-nous.html#a1">soumettre vos renseignements de voyage en votre nom</a>.</p>
 
-<p>Téléversez une preuve de vaccination dans ArriveCAN avant votre voyageUtilisez la preuve canadienne de vaccination contre la COVID 19</p>
+<details><summary><span id="preuve">Téléversez une preuve de vaccination dans ArriveCAN avant votre voyage</span></summary>
+
+<details><summary><span id="preuve-canadienne">Utilisez la preuve canadienne de vaccination contre la COVID 19</span></summary>
 
 <p><strong>Utilisez votre preuve canadienne de vaccination contre la COVID-19 en format PDF avec un code QR pour faciliter votre voyage</strong></p>
 
@@ -145,8 +158,9 @@
 <ul>
 	<li>Si vous ne l’avez pas encore, télécharger un fichier PDF de votre <a href="https://www.canada.ca/fr/immigration-refugies-citoyennete/services/preuve-canadienne-vaccination-covid-19/obtenir-preuve.html">preuve canadienne de vaccination contre la COVID-19 de votre province ou de territoire. </a></li>
 </ul>
+<img alt="Sample of Canadian COVID-19 proof of vaccination. It shows the issuing province or territory, country of issuance as Canada, personal information, vaccination doses administered and a QR code." class="img-responsive" data-entity-type="" data-entity-uuid="" src="https://www.canada.ca/content/dam/ircc/images/services/pvc/pvc-specimen-1.jpg" width="500px" /></details>
 
-<p><img alt="Sample of Canadian COVID-19 proof of vaccination. It shows the issuing province or territory, country of issuance as Canada, personal information, vaccination doses administered and a QR code." src="https://www.canada.ca/content/dam/ircc/images/services/pvc/pvc-specimen-1.jpg" />Autres personnes qui n’ont pas la preuve canadienne de vaccination</p>
+<details><summary><span id="autres-preuves">Autres personnes qui n’ont pas la preuve canadienne de vaccination</span></summary>
 
 <p>La preuve que vous utilisez :</p>
 
@@ -164,35 +178,33 @@
 	<li>doit être en anglais, en français <strong>ou une traduction certifiée conforme en anglais ou en français</strong></li>
 </ul>
 
-<p>Utilisez le fichier PDF original que vous avez reçu ou prenez une photo claire sous un bon éclairage de votre preuve papier :</p>
+<p class="mrgn-tp-md">Utilisez le fichier PDF original que vous avez reçu ou prenez une photo claire sous un bon éclairage de votre preuve papier :</p>
 
 <ul>
 	<li>formats de fichier acceptés : PDF, PNG, JPEG ou JPG</li>
 	<li>taille de fichier maximale pour le téléchargement : chaque téléchargement d’image a une limite de taille de 2 Mo</li>
 </ul>
+</details>
 
-<ol>
+<p>En préparation pour votre voyage de retour, <a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan/aide.html#a2">créez votre compte ArriveCAN</a></p>
+
+<ol class="lst-stps">
 	<li>
 	<h4 id="localisez-preuve">Localisez la preuve que vous devrez téléverser</h4>
 	</li>
 	<li>
 	<h4 id="sauvegardez-preuve">Sauvegardez ou déplacez votre fichier ou vos fichiers de preuve de vaccination pour qu’elle soit prête pour le téléversement</h4>
+
+	<ul>
+		<li>si vous prévoyez utiliser l’application mobile ArriveCAN, sauvegarder les fichiers sur votre téléphone ou vous pouvez prendre une photo de votre preuve de vaccination sur papier</li>
+		<li>si vous prévoyez utiliser ArriveCAN en ligne, sauvegarder votre preuve sur votre ordinateur</li>
+		<li>vous pouvez aussi envoyer votre preuve à la personne qui remplira votre formulaire ArriveCAN pour vous</li>
+	</ul>
 	</li>
-</ol>
-
-<ul>
-	<li>si vous prévoyez utiliser l’application mobile ArriveCAN, sauvegarder les fichiers sur votre téléphone ou vous pouvez prendre une photo de votre preuve de vaccination sur papier</li>
-	<li>si vous prévoyez utiliser ArriveCAN en ligne, sauvegarder votre preuve sur votre ordinateur</li>
-	<li>vous pouvez aussi envoyer votre preuve à la personne qui remplira votre formulaire ArriveCAN pour vous</li>
-</ul>
-
-<p>En préparation pour votre voyage de retour, <a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan/aide.html#a2">créez votre compte ArriveCAN</a></p>
-
-<ul>
 	<li>
 	<h4 id="televersez-preuve">Téléversez votre preuve dans ArriveCAN dans votre profil de voyageur</h4>
 	</li>
-</ul>
+</ol>
 
 <ul>
 	<li><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan.html">Ouvrez une session dans ArriveCAN à partir d’un ordinateur </a>ou utilisez l’application mobile</li>
@@ -211,8 +223,9 @@
 <p>La détermination finale de votre statut vaccinal sera faite à la frontière. Vous devez apporter avec vous une copie numérique ou papier de votre/vos preuve(s) de vaccination et la conserver pendant 14 jours après votre entrée.</p>
 
 <p>Terminez de remplir votre formulaire ArriveCAN afin d’obtenir votre reçu jusqu’à 72 heures avant votre retour au Canada.</p>
+<a class="btn btn-call-to-action mrgn-lft-lg" href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan.html">Téléchargez votre preuve dans ArriveCAN</a>
 
-<p><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan.html">Téléchargez votre preuve dans ArriveCAN</a>Déplacement avec un statut mixte de vaccination ou diverses raisons de voyager</p>
+<details><summary>Déplacement avec un statut mixte de vaccination ou diverses raisons de voyager </summary>
 
 <ul>
 	<li>N’incluez pas les autres voyageurs qui entrent au Canada qui font le déplacement à d’autres fins ou qui ne sont pas entièrement vaccinés (à moins qu’ils aient moins de 18 ans ou qu’ils soient des adultes à charge) dans une seule demande. Par exemple :
@@ -222,6 +235,8 @@
 	</ul>
 	</li>
 </ul>
+</details>
+</details>
 
 <p><strong>Les personnes entrant par voie terrestre</strong> qui ne sont pas au courant de l’utilisation obligatoire de l’application ArriveCAN seront informées par un agent des services frontaliers des exigences obligatoires de soumettre leurs renseignements dans ArriveCAN et pourront :</p>
 
@@ -230,12 +245,12 @@
 	<li>compléter leur soumission dans ArriveCAN au poste frontalier, si cela est réalisable sur le plan opérationnel.</li>
 </ul>
 
-<p><strong>Personnes qui arrivent par bateau (y compris un traversier)</strong> peuvent utiliser ArriveCAN pour soumettre leur preuve de vaccination dans les 72 heures suivant leur entrée ou <strong>au moment de leur arrivée</strong> au Canada.</p>
+<p class="mrgn-tp-md"><strong>Personnes qui arrivent par bateau (y compris un traversier)</strong> peuvent utiliser ArriveCAN pour soumettre leur preuve de vaccination dans les 72 heures suivant leur entrée ou <strong>au moment de leur arrivée</strong> au Canada.</p>
 <!-- h2 -->
 
 <h3 id="resolution-problemes">Résolution de problèmes liés à vaccination dans ArriveCAN</h3>
 
-<p>Vous n’avez pas pu téléverser votre preuve</p>
+<details><summary><span id="questions-vaccination">Vous n’avez pas pu téléverser votre preuve</span></summary>
 
 <ul>
 	<li>Vous avez <a href="/voyage-covid/voyage-restrictions/voyageurs-vaccines-covid-entrent-canada#localisez-preuve">téléchargé votre code QR sans le texte descriptif</a> de votre vaccination</li>
@@ -249,8 +264,9 @@
 <p>Si vous avez déjà soumis vos renseignements et que vous avez un <a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan/aide.html#a2.1">reçu d’ArriveCAN</a> sans votre statut de vaccination (soit sans un I ou un V à côté de votre nom), recommencez dans ArriveCAN avant de traverser la frontière. ArriveCAN effacera votre demande précédente.</p>
 
 <p><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan.html">Utilisez ArriveCAN – C’est gratuit, téléchargez l’application mobile ou ouvrez une session en ligne</a></p>
+</details>
 
-<p>Pas de reçu d’ArriveCAN</p>
+<details><summary><span id="pas-recu">Pas de reçu d’ArriveCAN</span></summary>
 
 <p>Si ArriveCAN ne vous a pas demandé de télécharger une preuve de vaccination ou n’a pas affiché de message indiquant que vous n’êtes pas admissible à entrer au Canada, il y a plusieurs raisons possibles :</p>
 
@@ -264,8 +280,9 @@
 </ul>
 
 <p>Si vous avez déjà soumis vos renseignements et que vous avez un reçu d’ArriveCAN sans votre statut de vaccination (par exemple, soit sans un A, I ou un V à côté de votre nom), recommencez dans ArriveCAN avant de traverser la frontière. ArriveCAN effacera votre demande précédente.</p>
+</details>
 
-<p>Recevoir des courriels et des appels concernant la quarantaine et le dépistage</p>
+<details><summary><span id="communiquer-arrivecan">Recevoir des courriels et des appels concernant la quarantaine et le dépistage</span></summary>
 
 <p>Si vous avez un A, I ou un V à côté de votre nom sur votre reçu d’ArriveCAN, vous ne devriez plus recevoir de courriels ou de notification d’ArriveCAN.</p>
 
@@ -276,8 +293,9 @@
 <p>Si vous recevez des notifications qui ne reflètent pas votre situation, utilisez le formulaire de contact d’ArriveCAN pour trouver une solution.</p>
 
 <p><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan/communiquez-avec-nous.html#questions-techniques-enregistrement">Formulaire de communication d’ArriveCAN</a></p>
+</details>
 
-<p>Il n’y a pas de A, I, ou V sur votre reçu d’ArriveCAN</p>
+<details><summary><span id="lettres-codes-recu">Il n’y a pas de A, I, ou V sur votre reçu d’ArriveCAN </span></summary>
 
 <p>Vous pourriez voir une ou plusieurs lettres-codes sur votre reçu. Cela signifie que vous devrez peut-être discuter de l’un des points suivants avec un représentant du gouvernement à la frontière :</p>
 
@@ -297,6 +315,7 @@
 </ul>
 
 <p>Si vous avez déjà envoyé l’information et que vous avez un reçu ArriveCAN sans votre statut vaccinal (par exemple, sans un A, I, ou V à côté de votre nom), recommencez dans ArriveCAN avant de traverser la frontière. ArriveCAN effacera votre demande précédente.</p>
+</details>
 
 <ul>
 	<li><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan/aide.html#a6">Dépannage général d’ArriveCAN et aide</a></li>
@@ -310,7 +329,7 @@
 
 <p>En tant que voyageur entièrement vacciné, vous pouvez voyager jusqu’à votre destination, comprenant des vols de correspondance, sans devoir attendre le résultat de votre test à l’arrivée (si vous êtes sélectionné pour le test de dépistage).</p>
 
-<p>Qui doit passer un test d’arrivée si sélectionné à son arrivée</p>
+<details><summary><span id="selectionne-test-arrivee">Qui doit passer un test d’arrivée si sélectionné à son arrivée</span></summary>
 
 <p>Les voyageurs entièrement vaccinés <strong>ne sont pas exemptés</strong> des tests aléatoires obligatoires à l’arrivée.</p>
 
@@ -339,8 +358,9 @@
 </ul>
 
 <p><a href="https://voyage.gc.ca/voyage-covid/voyage-restrictions/exemptions">Vérifiez si votre voyage est exempté du test de dépistage à l’arrivée</a></p>
+</details>
 
-<p>Personne rétablie de la COVID-19</p>
+<details><summary><span id="personne-retablie">Personne rétablie de la COVID-19</span></summary>
 
 <p>Vous êtes exempté du test à l’arrivée si vous :</p>
 
@@ -355,6 +375,7 @@
 	<li>le 11 janvier serait le premier jour où votre vol de départ pour le Canada peut être prévu ou la première date à laquelle vous pouvez utiliser votre résultat de test pour entrer au Canada par la voie terrestre ou maritime</li>
 	<li>si votre preuve de résultat positif est acceptée, vous n’aurez pas à effectuer un test à l’arrivée ou un test au huitième jour</li>
 </ul>
+</details>
 
 <h3 id="aerien-inscrivez-test-arrivee">Voyageurs aériens : inscrivez-vous à l’avance pour votre test de dépistage à l’arrivée</h3>
 
@@ -393,9 +414,10 @@
 	<li>votre résultat n’est pas concluant</li>
 </ul>
 
-<p>Amendes et conséquences liées au non-respect de l’exigence de dépistage</p>
+<details><summary><span id="amendes-consequences">Amendes et conséquences liées au non-respect de l’exigence de dépistage</span></summary>
 
 <p>Vous êtes légalement tenu de passer le test à l’arrivée dans les délais prescrits. Faute de vous y conformer, vous ne serez peut-être pas exempté de la quarantaine. Vous pouvez également être tenu de vous rendre dans un établissement de quarantaine, être passible d’amendes, ou subir d’autres mesures d’application.</p>
+</details>
 
 <h3 id="resultats-test-arrivee">Résultats de votre test à l’arrivée</h3>
 
@@ -420,7 +442,7 @@
 
 <p>Si vous êtes sélectionné pour effectuer un test de dépistage, vous devez fournir une preuve de vos résultats de test, sur demande, à tout fonctionnaire fédéral, provincial, territorial ou municipal ou à un agent de la paix.</p>
 
-<p>Le résultat à votre test de dépistage à l’arrivée est invalide ou indéterminé</p>
+<details><summary>Le résultat à votre test de dépistage à l’arrivée est invalide ou indéterminé </summary>
 
 <p>Vous devez passer un test supplémentaire.</p>
 
@@ -428,14 +450,15 @@
 	<li>Si vous avez effectué votre test à l’aide d’une trousse, votre fournisseur de tests devrait vous envoyer automatiquement une autre trousse par service de messagerie, mais il est recommandé que vous communiquiez avec le fournisseur pour vous assurer que la trousse est en route.</li>
 	<li>Si vous avez subi un test sur place à l’aéroport : communiquez avec votre fournisseur de tests pour savoir comment effectuer un nouveau test.</li>
 </ul>
+</details>
 
 <h3 id="joindre-fournisseur-test">Comment joindre votre fournisseur de test</h3>
 
-<p>Colombie-Britannique, Saskatchewan, Yukon</p>
+<details><summary><span id="colombie-britannique">Colombie-Britannique, Saskatchewan, Yukon</span></summary>
 
 <p>LifeLabs gère toutes les trousses de dépistage de la COVID-19 pour les voyageurs qui arrivent dans ces provinces.</p>
 
-<h2 id="contact-lifelabs">Communiquez avec LifeLabs</h2>
+<h2 class="h3" id="contact-lifelabs">Communiquez avec LifeLabs</h2>
 
 <p>Téléphone</p>
 
@@ -448,12 +471,13 @@
 <ul>
 	<li><a href="mailto:servicetravel.west@lifelabs.com ">servicetravel.west@lifelabs.com</a></li>
 </ul>
+</details>
 
-<p>Alberta, Ontario, Nouveau-Brunswick, Nouvelle-Écosse</p>
+<details><summary><span id="autres-provinces">Alberta, Ontario, Nouveau-Brunswick, Nouvelle-Écosse</span></summary>
 
 <p>Switch Health gère tous les tests de dépistage de la COVID-19 des voyageurs.</p>
 
-<h2 id="communiquez-switchhealth">Communiquez avec Switch Health</h2>
+<h2 class="h3" id="communiquez-switchhealth">Communiquez avec Switch Health</h2>
 
 <p>Téléphone</p>
 
@@ -467,12 +491,13 @@
 <ul>
 	<li><a href="mailto:contact@switchhealth.ca">contact@switchhealth.ca</a></li>
 </ul>
+</details>
 
-<p>Manitoba</p>
+<details><summary><span id="manitoba">Manitoba</span></summary>
 
 <p>Dynacare gère tous les tests de dépistage de la COVID-19 pour les voyageurs qui arrivent au Manitoba.</p>
 
-<h2 id="contact-dynacare">Communiquez avec Dynacare</h2>
+<h2 class="h3" id="contact-dynacare">Communiquez avec Dynacare</h2>
 
 <p>Téléphone</p>
 
@@ -481,12 +506,13 @@
 </ul>
 
 <p>Site Web : <a href="https://www.dynacare.ca/covidbordertesting.aspx">Dépistage frontalier de la COVID-19 pour les voyageurs</a></p>
+</details>
 
-<p>Québec</p>
+<details><summary><span id="Quebec">Québec</span></summary>
 
 <p>Biron gère tous les tests de dépistage de la COVID-19 des voyageurs qui arrivent au Québec.</p>
 
-<h2 id="">Biron :</h2>
+<h2 class="h3" id="">Biron :</h2>
 
 <p>Téléphone</p>
 
@@ -499,6 +525,7 @@
 <ul>
 	<li><a href="mailto:info@biron.com">info@biron.com</a></li>
 </ul>
+</details>
 <!-- h2/5 -->
 
 <h3 id="apres-arrivee">Après votre arrivée</h3>
@@ -520,13 +547,14 @@
 
 <p>Tous les enfants non vaccinés doivent porter de manière appropriée un masque bien fabriqué et bien ajusté dans les lieux publics durant les 14 premiers jours suivant leur entrée. Cela comprend les écoles et les garderies.</p>
 
-<p>Enfants de moins de 5 ans</p>
+<details><summary> <span id="enfants-moins-5">Enfants de moins de 5 ans</span></summary>
 
 <p>Les enfants de moins de 5 ans sont exemptés des exigences de vaccination. Ils sont également exemptés des tests avant l’entrée et à l’arrivée, de la mise en quarantaine. Aucune limite n’est imposée en ce qui a trait à leurs activités.</p>
 
 <p>Ces exemptions s’appliquent uniquement aux enfants et non aux parents, tuteurs ou autres membres de la famille avec qui ils ont voyagé. Les enfants qui ont 5 ans le jour de leur voyage <strong>ne sont pas</strong> exemptés de l’exigence de test.</p>
+</details>
 
-<p>Enfants de 5 à 11 ans</p>
+<details><summary> <span id="enfants-5-11">Enfants de 5 à 11 ans</span></summary>
 
 <p>Certaines des règles fédérales relatives à l’entrée des enfants au Canada peuvent différer des règles provinciales ou territoriales. Dans ce cas, vous devez suivre les règles les plus strictes.</p>
 
@@ -552,34 +580,39 @@
 <ul>
 	<li>les parents qui les accompagnent sont choisis pour un test aléatoire obligatoire</li>
 </ul>
+</details>
 
-<p>Adolescents de 12 à 17 ans</p>
+<details><summary><span id="adolescents-non-vaccines">Adolescents de 12 à 17 ans</span></summary>
 
 <p>Les adolescents non vaccinés ou partiellement vaccinés de 12 à 17 ans doivent se mettre en quarantaine pendant 14 jours. De plus, ils doivent respecter toutes les exigences de dépistage et effectuer un test préalable à l’entrée, un test à l’arrivée et un test au huitième jour, même s’ils sont accompagnés par des voyageurs entièrement vaccinés admissibles.</p>
+<a href="/voyage-covid/voyage-restrictions/exemptions#non-vaccines ">Suivez la liste de vérification des exigences relatives aux tests et à la quarantaine </a></details>
 
-<p><a href="/voyage-covid/voyage-restrictions/exemptions#non-vaccines ">Suivez la liste de vérification des exigences relatives aux tests et à la quarantaine </a></p>
-
-<p>Adultes à charge non vaccinée</p>
+<details><summary><span id="charge-non-vaccines">Adultes à charge non vaccinée</span></summary>
 
 <p>Les personnes à charge de 18 ans et plus qui ne sont pas vaccinées en raison de limitations physiques ou mentales, peuvent entrer au Canada. Cependant, elles doivent satisfaire à <strong>toutes les exigences en matière de dépistage et de mise en quarantaine</strong>, même lorsque les parents ou tuteurs qui les accompagnent sont admissibles en tant que voyageurs entièrement vaccinés.</p>
 
 <p><a href="/voyage-covid/voyage-restrictions/exemptions#non-vaccines">Suivez la liste de vérification des exigences relatives aux tests et à la quarantaine</a></p>
+</details>
 
 <p><strong>ArriveCAN :</strong> Si votre demande comprend des voyageurs qui ne sont pas exemptés de l’exigence de mise en quarantaine (p. ex., les jeunes de 12 à 17 et les adultes à charge non vaccinées), vous recevrez des avis d’ArriveCAN et vous devrez remplir des rapports quotidiens pour les voyageurs non vaccinés.</p>
 
-<section>
-<h2>Feature</h2>
+<section class="provisional single-feature mrgn-bttm-md mrgn-tp-lg row">
+<h2 class="wb-inv">Feature</h2>
 
-<p><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/alerte-covid.html"><img alt="" src="/vt/images/2012/20210824-520x200.jpg" /></a></p>
+<figure>
+<div class="pull-left col-md-4"><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/alerte-covid.html"><img alt="" class="img-responsive thumbnail mrgn-bttm-sm" data-entity-type="" data-entity-uuid="" src="/vt/images/2012/20210824-520x200.jpg" /></a></div>
 
-<p><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan.html">Vous devez utiliser ArriveCAN pour entrer au Canada</a></p>
+<figcaption class="pull-left col-md-8 h5 mrgn-lft-0 mrgn-tp-0"><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan.html">Vous devez utiliser ArriveCAN pour entrer au Canada</a></figcaption>
 
+<div class="pull-right col-md-8 small">
 <p>Vous devez utiliser ArriveCAN dans les 72 heures avant votre entrée au Canada</p>
 
 <ul>
 	<li><a href="https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/arrivecan/aide.html#a6">Trouvez des réponses à vos questions au sujet d’ArriveCAN</a></li>
 	<li>Urgent besoin d’aide? <a href="https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/arrivecan/contact-us.html">Communtiquez avec ArriveCAN par téléphone ou par courriel</a></li>
 </ul>
+</div>
+</figure>
 </section>
 <!-- Feedback, Page Share--><div class="row row-no-gutters mrgn-tp-xl"><div class="col-sm-7 col-lg-6"><!--#include virtual="/vt/dynamic/fra/covid-19-pd/feedback-widget/feedback-widget.aspx"--></div><div class="col-sm-3 col-sm-offset-1 col-lg-offset-3"><!--#include virtual="/vt/dynamic/fra/covid-19-pd/feedback-widget/page-share.aspx"--></div></div><!-- Date Modified --><!--#include virtual="/vt/dynamic/fra/covid-19-pd/feedback-widget/date-modified-html.aspx"--></main><!--#include virtual="/vt/dynamic/_shared/fra/4-dynamic.aspx"--><!--#include virtual="/vt/dynamic/fra/covid-19-pd/feedback-widget/feedback-widget-script-jquery.aspx"--><script type="text/javascript">
             $(document).ready(function () {
