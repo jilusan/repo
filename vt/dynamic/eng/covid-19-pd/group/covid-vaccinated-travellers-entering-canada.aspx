@@ -2,7 +2,7 @@
 	<li><a href="http://canada.ca/en/index.html">Canada.ca</a></li>  
 	<li><a href="/">Travel</a></li>
 	<li><a href="/travel-covid">Travel, testing and borders</a></li>    </ol>
-</div></div></nav></header><!--#include virtual="/vt/templates/components/above-fold-eng.aspx"--><main role="main" property="mainContentOfPage" class="container"><h1 property="name" id="wb-cont">Travel to Canada: Requirements for COVID-19 vaccinated travellers</h1><!-- h2 -->
+</div></div></nav></header><!--#include virtual="/vt/templates/components/above-fold-eng.aspx"--><main role="main" property="mainContentOfPage" class="container"><h1 property="name" id="wb-cont">Travel to Canada: Requirements for COVID-19 vaccinated travellers1</h1><!-- h2 -->
 <h2>On this page</h2>
 
 <ul>
